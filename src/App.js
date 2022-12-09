@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import './css/navbar.css';
+
+import Ce_navbar from './components/Ce_navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Ce_footer from './components/Ce_footer';
+import { Ce_forms } from './components/Ce_forms';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Ce_navbar/>
+      <Ce_forms/>
+      <Ce_footer/>
     </div>
   );
 }

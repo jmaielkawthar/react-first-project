@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+label{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0 5px;
+}
+.inlineformGroup{
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
