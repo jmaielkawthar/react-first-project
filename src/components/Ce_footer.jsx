@@ -3,16 +3,21 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 const Ce_footer = () => {
   return (
-    <div>
+    <div className='footer'>
        <Container>
-      <Row>
-        <Col sm={8}>sm=8</Col>
-        <Col sm={4}>sm=4</Col>
+
+      <Row className='footer-top'>
+        <Col sm><h1>I'm the footer</h1></Col>
+        <Col sm><ul className='footer-nav'>
+          <li><a href="#about_us"> about us </a></li>
+          <li><a href="#services"> services </a></li>
+          <li><a href="#blogs"> blogs </a></li>
+          </ul>
+          </Col>
+        <Col sm><p className='footer-info'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p></Col>
       </Row>
-      <Row>
-        <Col sm>sm=true</Col>
-        <Col sm>sm=true</Col>
-        <Col sm>sm=true</Col>
+      <Row className='copyright'>
+        <Col sm={12}><p className='copyright-info'>copyright first react website 2022</p></Col>
       </Row>
     </Container>
     </div>

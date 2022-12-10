@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
-import MyImage from './img/formImg.jpg';
-import MyLogo from './img/téléchargement.png';
+// import MyImage from './img/formImg.jpg';
+// import MyLogo from './img/téléchargement.png';
 
 
 export const Ce_forms = () => {
@@ -10,7 +10,7 @@ export const Ce_forms = () => {
       <Container>
       <Row>
         <Col sm={8}>
-        <Form >
+        <Form>
           <Form.Group className="inlineformGroup mb-3" controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
             <Form.Control type="email" placeholder="Enter email" />
@@ -32,7 +32,7 @@ export const Ce_forms = () => {
         </Form>
         </Col>
         <Col sm={4}>
-            <img src={MyLogo} alt="FORMS" />
+            {/* <img src={MyLogo} alt="FORMS" /> */}
         </Col>
       </Row>
        
