@@ -23,7 +23,7 @@ function App() {
       <Card>
         <ProfilePhoto />
         <Card.Body>
-          <Card.Title><FullName /></Card.Title>
+          <Card.Title><FullName name="kawthar jmaiel"/></Card.Title>
           <Card.Text>
           <Address/>
           </Card.Text>

@@ -1,8 +1,8 @@
 import React from 'react'
 
-const FullName = () => {
+const FullName = (props) => {
   return (
-    <div>kawthar jmaiel</div>
+    <div>{props.name}</div>
   )
 }
 
