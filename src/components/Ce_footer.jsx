@@ -1,13 +1,14 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import MyLogo from "../img/jhk-logo.jpg";
 
-const Ce_footer = () => {
+const Ce_footer = ({children , normal}) => {
   return (
     <div className='footer'>
        <Container>
 
       <Row className='footer-top'>
-        <Col sm><h1>I'm the footer</h1></Col>
+        <Col sm>   <img src={MyLogo} alt="logo" /> <p>welcome to our brand</p></Col>
         <Col sm><ul className='footer-nav'>
           <li><a href="#about_us"> about us </a></li>
           <li><a href="#services"> services </a></li>

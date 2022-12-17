@@ -1,8 +1,8 @@
 import React from "react";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
-// import MyImage from './img/formImg.jpg';
+//import MyImage from "./img/formImg.jpg";
 // import MyLogo from './img/téléchargement.png';
-
+import MyImage from "../img/form-filler.svg";
 
 export const Ce_forms = () => {
   return (
@@ -32,7 +32,7 @@ export const Ce_forms = () => {
         </Form>
         </Col>
         <Col sm={4}>
-            {/* <img src={MyLogo} alt="FORMS" /> */}
+            <img src={MyImage} alt="FORMS" />
         </Col>
       </Row>
        
